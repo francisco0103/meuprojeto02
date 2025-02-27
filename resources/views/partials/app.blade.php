@@ -1,3 +1,3 @@
 @include('partials.header')
-@yeld('content')
+@yield('content')
 @include('partials.footer')
