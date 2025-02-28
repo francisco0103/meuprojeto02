@@ -10,7 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color:rgb(255, 255, 255);
+       
         }
         header {
             background:rgb(0, 0, 0);
@@ -74,12 +74,21 @@ a:active{
     padding: 5px 8px;
     color: #ff6347;
 }
-
-
-
-
-
     
+
+/* styles.css */
+.pagination {
+    color: black; /* Altere para a cor que você preferir */
+}
+
+.pagination a {
+    color: black; /* Altere para a cor que você preferir */
+}
+
+.pagination .active {
+    background-color: #007bff; /* Cor de fundo para o item ativo */
+    color: white; /* Cor do texto para o item ativo */
+}
     </style>
 </head>
 <body>

@@ -28,8 +28,8 @@ Route::get('/projeto', function(){
         
       });
 
-        //Route::get('/registe', function(){
-           // return view('registe');
+        Route::get('/login', function(){
+            return view('login');
             
-            //});
+            });
 
