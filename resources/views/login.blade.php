@@ -9,12 +9,15 @@ div{
 
     div {
     margin-bottom: 10px; /* Espaço entre os inputs */
+   
 }
 
 input {
-    width: 100%; /* Faz os inputs ocuparem toda a largura do contêiner */
-    padding: 10px; /* Espaçamento interno */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
+    white: 100%;
+    height: 10px;
+    padding: 10px;
+    margin-bottom: 5px /* Espaçamento interno */
+    /* Inclui padding e border na largura total */
 }
 
 }

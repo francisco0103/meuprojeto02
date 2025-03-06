@@ -33,3 +33,14 @@ Route::get('/projeto', function(){
             
             });
 
+            //Route::get('/cliente' , function(){
+           // return view('cliente');
+
+            //});
+
+            Route::get('/cliente', function(){
+                $usuarios = User::where('id', 10)->get();
+             return view('cliente', ['usuarios' => $usuarios]);
+             
+             });
+
